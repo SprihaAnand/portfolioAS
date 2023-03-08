@@ -41,3 +41,11 @@
 .name{
     color: plum;
 }
+@media (width <=435px) {
+    .text {
+        width: 100%;
+    }
+    .parent{
+        width: 400px;
+}
+}
