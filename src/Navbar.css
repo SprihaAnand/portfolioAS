@@ -1,5 +1,8 @@
-.logo{
-    color:plum;
+.logo {
+    color: plum;
+}
+body{
+    background-color:#100e17;
 }
 * {
     margin: 0;
@@ -13,6 +16,7 @@
 }
 
 header {
+    height: 2vh;
     position: relative;
     z-index: 1;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -41,7 +45,7 @@ header .container nav a {
 }
 
 header .container nav a.active {
-    
+
     transition: 0.5s;
     border-radius: 10px;
 }
@@ -66,12 +70,13 @@ header .container .overlay.active {
 
 /* Media query */
 @media (width <=767px) {
-    *{
+    * {
         font-size: smaller;
     }
 }
+
 @media (width <=394px) {
-    .nav{
+    .nav {
         flex-direction: column;
     }
-    }
+}

@@ -1,16 +1,16 @@
 import React from "react";
 import "./Home.css";
+import Projects from "./Projects";
 
 function Home() {
   return (
     <div class="parent">
-      <div>
-        <img src={require("./bitmoji.png")} alt="" />
+      <div class="text box box2">
+        hello I am
+        <span class="name"> Aryan</span>, i do Machine learning
       </div>
-      <div class="box box2">
-        <div class="text">
-          <span class="name">Aryan</span> i do Machine learning
-        </div>
+      <div class="box">
+        <Projects />
       </div>
     </div>
   );

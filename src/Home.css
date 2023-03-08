@@ -1,34 +1,42 @@
-body {
-    background: #0c0717;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 .parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    animation: gradient 30s ease infinite;
+    background-image: url('./bgHome.webp'); 
+    height: 200vh;
+    align-items: center;
 
-.box {
-    flex: 1 1 500px;
-    flex: 0 1 500px;
-    margin: 5px;
-   
 }
 
 .text{
+   
     font-family: Georgia, serif;
     font-size: 40px;
     letter-spacing: 6px;
     word-spacing: 6px;
     color: #ffffff;
     font-weight: 400;
-    transition: box-shadow .3s;
-    padding: 50px;
+    padding-top: 10%;
+    padding-bottom: 20%;
     margin: 50px;
-    border-radius: 10px;
-    border: .1px solid #ececec;
-    background: #1a1527;
-    float: right;
+    width: 400px;
+    
 
+}
+.box{
+    height: 8vh;
+    padding-bottom: 200px;
 }
 .name{
     color: plum;
