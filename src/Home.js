@@ -1,4 +1,5 @@
 import React from "react";
+import Domains from "./Domains";
 import "./Home.css";
 import Projects from "./Projects";
 

@@ -15,7 +15,7 @@ function Navbar() {
           <a href="/" class="active">
             Projects
           </a>
-          <a href="/">about</a>
+          <a href="/">about me</a>
           <a href="/">contact</a>
         </nav>
         <div class="bar-icon">

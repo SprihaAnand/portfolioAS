@@ -1,0 +1,48 @@
+h6{
+    font-family: Georgia, serif;
+        font-size: 30px;
+        letter-spacing: -0.6px;
+        word-spacing: 2.8px;
+        color: #ffffff;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: italic;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        padding: 1rem;
+}
+p{
+        font-family: "Courier New", Courier, monospace;
+        font-size: 17px;
+        letter-spacing: 0.4px;
+        word-spacing: 2.8px;
+        color: #ffffff;
+        font-weight: 400;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+}
+a{
+    font-family: "Courier New", Courier, monospace;
+        font-size: 15px;
+        letter-spacing: -0.6px;
+        word-spacing: 2.4px;
+        color: #6d6c6c;
+        font-weight: 400;
+        text-decoration: none;
+
+}
+
+.child{
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    padding: 5rem;
+}
+.copyright-text{
+    padding-bottom: 1rem;
+    font-size: smaller;
+}

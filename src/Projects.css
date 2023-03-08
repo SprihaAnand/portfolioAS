@@ -1,7 +1,12 @@
 /* 
 ** Layout, Text & Colors 
 */
-
+.tech{
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 370;
+}
 body {
     background: #150f21;
     font-size: 18px;
@@ -26,6 +31,7 @@ p {
 
 .column-1 {
     padding-top: 100px;
+
 }
 
 .card {
@@ -53,7 +59,7 @@ p {
 
 .card h1 {
     position: relative;
-    padding: 190px 0px 100px 10px;
+    padding: 100px 0px 100px 10px;
     width: 90%;
 }
 

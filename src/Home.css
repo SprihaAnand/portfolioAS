@@ -11,16 +11,17 @@
         background-position: 0% 50%;
     }
 }
+
 .parent {
     animation: gradient 30s ease infinite;
-    background-image: url('./bgHome.webp'); 
-    height: 200vh;
+    background-image: url('./bgHome.webp');
+    height: 150vh;
     align-items: center;
 
 }
 
-.text{
-   
+.text {
+
     font-family: Georgia, serif;
     font-size: 40px;
     letter-spacing: 6px;
@@ -31,22 +32,26 @@
     padding-bottom: 20%;
     margin: 50px;
     width: 400px;
-    
+
 
 }
-.box{
+
+.box {
     height: 8vh;
     padding-bottom: 200px;
 }
-.name{
+
+.name {
     color: plum;
 }
+
 @media (width <=435px) {
-    .text{
-        width:100%;
-        
+    .text {
+        width: 100%;
+
     }
-     .parent{
+
+    .parent {
         width: 400px;
-}
+    }
 }
