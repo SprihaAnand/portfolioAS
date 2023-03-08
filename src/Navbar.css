@@ -71,7 +71,7 @@ header .container .overlay.active {
 /* Media query */
 @media (width <=435px) {
     .nav {
-        font-size: 10px;
+        font-size: 8px;
         display: inline;
     }
 }
