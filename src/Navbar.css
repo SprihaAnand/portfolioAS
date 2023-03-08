@@ -69,10 +69,23 @@ header .container .overlay.active {
 }
 
 /* Media query */
+<<<<<<< HEAD
 
+=======
+
+@media (width <=435px) {
+    .nav {
+        font-size: 8px;
+        display: inline;
+    }
+}
+
+
+>>>>>>> temp-branch
 @media (width <=435px) {
     .nav {
         font-size: 10px;
         display: inline;
     }
 }
+
