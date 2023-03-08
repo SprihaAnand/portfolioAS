@@ -42,7 +42,7 @@
     color: plum;
 }
 @media (width <=435px) {
-    .parent {
+    .text{
         font-size: 20px;
         
     }
