@@ -21,6 +21,9 @@ Throughout the development process, I paid close attention to code organization 
 
 - Code Optimization and Reusability: With the utilization of React, the site's code is organized and optimized for performance and loading speed. The implementation of reusable components promotes code efficiency and maintainability, making it easier to update and expand the site in the future.
 ## Screenshots
+![Screenshot from 2023-06-04 23-18-42](https://github.com/SprihaAnand/portfolioAS/assets/97617046/a12911ab-a2d2-4bf5-9014-dbdf0fd740cb)
+![Screenshot from 2023-06-04 23-18-49](https://github.com/SprihaAnand/portfolioAS/assets/97617046/d22bdcae-e16a-473e-83b7-2e0aa4c4c508)
+![Screenshot from 2023-06-04 23-18-57](https://github.com/SprihaAnand/portfolioAS/assets/97617046/e0adfb31-fc67-4bd8-8b39-610e6fb0e85e)
 
 ## Author(s)
 Spriha Anand @SprihaAnand
