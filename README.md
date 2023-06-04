@@ -21,6 +21,15 @@ Throughout the development process, I paid close attention to code organization 
 
 - Code Optimization and Reusability: With the utilization of React, the site's code is organized and optimized for performance and loading speed. The implementation of reusable components promotes code efficiency and maintainability, making it easier to update and expand the site in the future.
 
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
 ## Run Locally
 
 Clone the project
