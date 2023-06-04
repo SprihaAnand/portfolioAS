@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio Template
 A captivating portfolio website using React, HTML, and CSS, featuring a modern design with a sleek dark theme. The primary objective of this project was to showcase my skills, achievements, and projects in a visually appealing and user-friendly manner.
 
 To achieve the desired aesthetic, I opted for a dark theme, which adds an element of elegance and sophistication to the overall design. The dark background perfectly complements the vibrant colors used for key elements, such as buttons and accents, creating a striking contrast that grabs the visitors' attention.
