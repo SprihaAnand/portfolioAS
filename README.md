@@ -20,6 +20,34 @@ Throughout the development process, I paid close attention to code organization 
 - Smooth Animations and Transitions: To enhance user experience and add a touch of interactivity, the site incorporates smooth animations and transitions. These subtle effects provide a polished and modern feel, making the browsing experience more engaging and enjoyable.
 
 - Code Optimization and Reusability: With the utilization of React, the site's code is organized and optimized for performance and loading speed. The implementation of reusable components promotes code efficiency and maintainability, making it easier to update and expand the site in the future.
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
 ## Screenshots
 ![Screenshot from 2023-06-04 23-18-42](https://github.com/SprihaAnand/portfolioAS/assets/97617046/a12911ab-a2d2-4bf5-9014-dbdf0fd740cb)
 ![Screenshot from 2023-06-04 23-18-49](https://github.com/SprihaAnand/portfolioAS/assets/97617046/d22bdcae-e16a-473e-83b7-2e0aa4c4c508)
