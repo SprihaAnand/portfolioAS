@@ -15,25 +15,25 @@
 .parent {
     animation: gradient 30s ease infinite;
     background-image: url('./bgHome.webp');
-    height: 150vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+        margin-bottom: 5rem;
 }
 
 .text {
-
     font-family: Georgia, serif;
     font-size: 40px;
     letter-spacing: 6px;
     word-spacing: 6px;
     color: #ffffff;
     font-weight: 400;
-    padding-top: 10%;
-    padding-bottom: 20%;
     margin: 50px;
-    width: 400px;
-
-
+    max-width: 400px;
 }
 
 .box {
@@ -44,24 +44,33 @@
 .name {
     color: plum;
 }
-<<<<<<< HEAD
-@media (width <=435px) {
-    .text {
-        width: 100%;
-    }
-    .parent{
-        width: 400px;
+
+.subtext {
+    color: #ffffff;
+    margin-bottom: 20px;
 }
-=======
 
-@media (width <=435px) {
+.discover-btn {
+    background-color: plum;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.discover-btn:hover {
+    background-color: #8e3b8b;
+}
+
+@media (max-width: 435px) {
     .text {
         width: 100%;
-
     }
 
     .parent {
         width: 400px;
     }
->>>>>>> temp-branch
 }

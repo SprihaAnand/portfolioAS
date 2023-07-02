@@ -1,0 +1,77 @@
+.list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.candidates-list {
+    list-style: none;
+    padding: 0;
+}
+
+.candidates-list li {
+    margin: 2rem;
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.candidate-info {
+    display: flex;
+    align-items: center;
+}
+
+.candidate-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+    margin: 1rem;
+}
+
+.candidate-details {
+    flex: 1;
+}
+
+.candidate-details h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.candidate-details p {
+    margin: 0;
+    color: #eee;
+}
+
+.rank-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #eb5160;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .candidates-list li {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rank-badge {
+        margin-top: 1rem;
+    }
+}

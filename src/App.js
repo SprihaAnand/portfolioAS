@@ -1,26 +1,36 @@
+import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import "./Home.js";
-import "./Navbar.js";
-import "./Projects.js";
-import Home from "./Home.js";
-import Navbar from "./Navbar.js";
+import Home from "./Home";
+import Navbar from "./Navbar";
 import Footer from "./Footer";
-<<<<<<< HEAD
-=======
-import Domains from "./Domains";
->>>>>>> temp-branch
+import Projects from "./Projects";
+import Search from "./Search";
+import List from "./List";
+import Lrpage from "./Lrpage";
+import LoginForm from "./LoginForm";
+import RegisterForm from "./RegisterForm";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-<<<<<<< HEAD
-=======
-      <Domains />
->>>>>>> temp-branch
-      <Footer />
-    </div>
+    <React.StrictMode>
+      <Router>
+        <div className="App">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/features" element={<Projects />} />
+            <Route path="/search" element={<Search />} />
+            <Route path="/list" element={<List />} />
+            <Route path="/login" element={<Lrpage />} />
+            <Route path="/loginform" element={<LoginForm />} />
+            <Route path="/registerform" element={<RegisterForm />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </React.StrictMode>
   );
 }
 

@@ -1,9 +1,11 @@
 .logo {
     color: plum;
 }
-body{
-    background-color:#100e17;
+
+body {
+    background-color: #100e17;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -42,10 +44,19 @@ header .container nav {
 header .container nav a {
     font-size: 1.2rem;
     padding: 10px 1rem;
+    transition: 0.5s;
 }
 
+header .container nav a:hover {
+    color: lightgray;
+    /* Change to the desired color */
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.logo{
+    height: 70px;
+}
 header .container nav a.active {
-
     transition: 0.5s;
     border-radius: 10px;
 }
@@ -69,23 +80,31 @@ header .container .overlay.active {
 }
 
 /* Media query */
-<<<<<<< HEAD
+@media (max-width: 435px) {
+    header .container nav {
+        font-size: 0.9rem;
+        /* Adjust the font size as per your requirement */
+    }
 
-=======
+    header .container .bar-icon {
+        display: block;
+    }
 
-@media (width <=435px) {
-    .nav {
-        font-size: 8px;
-        display: inline;
+    header .container .overlay {
+        display: none;
+    }
+
+    header .container .overlay.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    header .container .overlay a {
+        font-size: 0.9rem;
+        /* Adjust the font size as per your requirement */
+        padding: 10px 1rem;
     }
 }
-
-
->>>>>>> temp-branch
-@media (width <=435px) {
-    .nav {
-        font-size: 10px;
-        display: inline;
-    }
-}
-
